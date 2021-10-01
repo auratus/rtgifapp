@@ -1,0 +1,173 @@
+.preloader{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index:9999;
+}
+
+#supreme_page_main{
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#supreme_page_child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    flex-direction: column;
+}
+
+#cont_to_animate::after{
+content: "   GIF";
+animation-name: GSM;
+animation-iteration-count: infinite;
+animation-duration:10s;
+animation-timing-function:linear ;
+/* color: #976904; */
+letter-spacing:3px;
+word-spacing: 6px;
+font-weight: 400;
+
+}
+
+@keyframes GSM{
+    0%{content: " GIF";color: #FF4500;}
+    9.5%{content:" GIF";color: #FF4500;}
+    10%{content: " GI";color: #FF4500;}
+    10.5%{content: " G";color: #FF4500;}
+    11%{content: " ";}
+    16.5%{content: " ";}
+    17%{content: " S";color: #ffbd2f;}
+    19%{content: " ST";color: #ffbd2f;}
+    21%{content: " STI";color: #ffbd2f;}
+    23%{content: " STIC";color: #ffbd2f;}
+    25%{content: " STICK";color: #ffbd2f;}
+    27%{content: " STICKE";color: #ffbd2f;}
+    29%{content: " STICKER";color: #ffbd2f;}
+    31%{content: " STICKERS";color: #ffbd2f;}
+    42.5%{content: " STICKERS";color: #ffbd2f;}
+    43%{content: " STICKER";color: #ffbd2f;}
+    43.5%{content: " STICKE";color: #ffbd2f;}
+    44%{content: " STICK";color: #ffbd2f;}
+    44.5%{content: " STIC";color: #ffbd2f;}
+    45%{content: " STIC";color: #ffbd2f;}
+    45.5%{content: " STI";color: #ffbd2f;}
+    46%{content: " ST";color: #ffbd2f;}
+    46.5%{content: " S";color: #ffbd2f;}
+    47%{content: " ";}
+    52.5%{content: " ";}
+    53%{content: " C";color: #FF00FF;}
+    55%{content: " CR";color: #f108f1;}
+    57%{content: " CRE";color: #FF00FF;}
+    59%{content: " CREA";color: #FF00FF;}
+    61%{content: " CREAT";color: #FF00FF;}
+    63%{content: " CREATE";color: #FF00FF;}
+    65%{content: " CREATE M";color: #FF00FF;}
+    67%{content: " CREATE ME";color: #FF00FF;}
+    69%{content: " CREATE MEM";color: #FF00FF;}
+    71%{content: " CREATE MEME";color: #FF00FF;}
+    82.5%{content: " CREATE MEME";color: #FF00FF;}
+    83%{content: " CREATE MEM";color: #FF00FF;}
+    83.5%{content: " CREATE ME";color: #FF00FF;}
+    84%{content: " CREATE M";color: #FF00FF;}
+    84.5%{content: " CREATE";color: #FF00FF;}
+    85%{content: " CREAT";color: #FF00FF;}
+    85.5%{content: " CREA";color: #FF00FF;}
+    86%{content: " CRE";color: #FF00FF;}
+    86.5%{content: " CR";color: #FF00FF;}
+    87%{content: " C";color: #FF00FF;}
+    87.5%{content: " ";color: #FF4500;}
+    93%{content: " ";color: #FF4500;}
+    93.5%{content: " G";color: #FF4500;}
+    95.5%{content: " GI";color: #FF4500;}
+    97.5%{content: " GIF";color: #FF4500;}
+    100%{content: " GIF";color: #FF4500;}
+}
+
+#supreme_page_child_child1{
+    /* max-height: 10vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#supreme_page_child_child1 h1{
+    margin: 0;
+}
+
+#supreme_page_child_child2{
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 12px;
+}
+
+#sup_insta{
+    width: 37px;
+    height: 37px;
+    text-decoration: none;
+    background-color:  #fb3958;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 12px;
+    border: 1px solid white;
+}
+
+#sup_face{
+    width: 37px;
+    height: 37px;
+    text-decoration: none;
+    background-color: #385898;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 12px;
+    border: 1px solid white;
+}
+
+#sup_wa{
+    width: 37px;
+    height: 37px;
+    text-decoration: none;
+    margin-right: 20px;
+    background-color: #00bfa5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 12px;
+    border: 1px solid white;
+}
+
+#app_name{
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+#app_name h2{
+    color: white;
+    font-size: 45px;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    margin:0;
+}

@@ -1,0 +1,342 @@
+
+              /* footer started here */
+              #main_footer{
+                width: 100%;
+                height: 90vh;
+                background-color: #28282B;
+                z-index: 9999;
+                
+              }
+              #child_footer{
+                display: flex;
+                align-items: center;
+                justify-content:space-around;
+                padding: 10vh 0;
+                flex-wrap: wrap;
+                
+              }
+              
+              #child_footer section{
+                width: 300px;
+                height: 40vh;
+              }
+              
+              #child_footer section li{
+                list-style: none;
+                padding: 8px 0;
+              }
+              
+              #child_footer section h3{
+                color: white;
+                letter-spacing: 1px;
+              }
+              
+              #child_footer section a{
+                text-decoration: none;
+                      color: white;
+                      display: flex;
+                      align-items: center;
+              }
+              
+                  #privacy{
+                      width: 25vmax;
+                      height: 4vmax;
+                    
+                      margin-top: 0.7vmax;
+                      
+                  }
+              
+                  #disclaimer{
+                      width:25vmax;
+                      height: 4vmax;
+                     
+                      
+                  }
+              
+                  #pp{
+                      font-size:1.2vmax;
+                      display: flex;
+                      align-items: center;
+                  }
+              
+                  #dis{
+                      font-size:1.2vmax;
+                      display: flex;
+                      align-items: center;
+                  }
+              
+                  #pp_icon{
+                      font-size: 1.9vmax;
+                     color:#87CEFA; 
+                  }
+              
+                  #dis_icon{
+                      font-size: 1.9vmax;
+                      color:#87CEFA; 
+                  }
+              
+                
+              
+                 #insta{
+                     margin: 1vmax 0 1.5vmax 0;
+                     font-size:1.2vmax;
+                     width: 50%;
+                     display: flex;
+                     align-items: center;
+                 }
+              #face{
+              font-size:1.2vmax;
+                     width: 50%;
+                     display: flex;
+                     align-items: center;
+              margin: 0 0 1.5vmax 0;
+              
+              }
+              
+              #twitter{
+              font-size:1.2vmax;
+                     width: 50%;
+                     display: flex;
+                     align-items: center;
+              }
+              
+              
+               #insta_icon{
+                   color: #87CEFA;
+                   font-size: 1.9vmax;
+                   transition-property: transform;
+                     transition-timing-function: linear;
+                     transition-duration: 00.2s;
+               }
+               #insta_icon:hover{
+                  transform: rotate(360deg);
+              }
+              
+               #facebook_icon{
+                  color: #87CEFA;
+                  font-size:1.9vmax;
+                  transition-property: transform;
+              transition-timing-function: linear;
+              transition-duration: 00.2s;
+              }
+              
+              #facebook_icon:hover{
+                  transform: rotate(360deg);
+              }
+              
+              #twitter_icon{
+                  color: #87CEFA;
+                  font-size:1.9vmax;
+                  transition-property: transform;
+                  transition-timing-function: linear;
+                  transition-duration: 00.2s;
+              }
+              
+              #twitter_icon:hover{
+                  transform: rotate(360deg);
+              }
+              
+              #add{
+              color: white;
+              font-weight: normal;
+              font-size: 1.2vmax;
+              display: flex;
+              align-items: center;
+              }
+              
+              #add_ress{
+              color:grey;
+              font-size: 90%;
+              }
+              
+              #address_icon{
+              font-size: 1.8vmax;
+              color:#87CEFA;
+              }
+              
+              #mo_num{
+              color: #87CEFA;
+              font-size: 1.8vmax;
+              }
+              
+              #e_id{
+              color: #87CEFA;
+              font-size:1.8vmax;
+              }
+              
+              #foot_des p{
+              text-align: center;
+              color: grey;
+              font-size: 90%;
+              text-transform: uppercase;
+              border-bottom: 0.1px solid grey;
+              padding-bottom: 12px;
+              }
+              
+              
+              #c_right p{
+              color: grey;
+              }
+              #hi_rt a{
+              color: #87CEFA;
+              text-decoration: none;
+              }
+              
+              #hi_rt a:hover{
+              color: #00BFFF;
+              }
+              
+              #foot_end{
+              width: 100%;
+              height:22vh;
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              }
+              
+              #add_links{
+                  padding-left: 0;
+              }
+
+              ul{
+                  padding-left: 0;
+              }
+              
+              @media (max-width: 1080px){
+              
+              #main_footer{
+                  letter-spacing: 0.75px;
+              height: auto;
+                  word-spacing: 0.75px;
+              }
+              
+              #child_footer section{
+                  width: 80%;
+                  height: auto; 
+                  padding: 3vmax 0;   
+              }
+              
+              #child_footer section li{
+              padding: 15px 0;
+              line-height: 150%;
+              }
+              
+              #privacy{
+                  min-width: 25vmax;
+                  min-height: 4vmax;
+                  margin-top: 1vmax;
+                  margin-bottom: 0.8vmax;
+              }
+              
+              #disclaimer{
+                  min-width:25vmax;
+                  min-height: 4vmax;
+              }
+              
+              #pp{
+                  font-size: 1.5vmax;
+              }
+              
+              #dis{
+                  font-size: 1.5vmax;
+              }
+              
+              #pp_icon{
+                  font-size: 1.9vmax;
+              }
+              
+              #dis_icon{
+                  font-size: 1.9vmax;
+              }
+              
+              #insta{
+                  font-size: 1.5vmax;
+              }
+              
+              #face{
+                  font-size: 1.5vmax;
+              }
+              
+              #twitter{
+                  font-size: 1.5vmax;
+              }
+              
+              #facebook_icon{
+                  font-size: 1.9vmax;
+              }
+              
+              #insta_icon{
+                  font-size: 1.9vmax;
+              }
+              
+              #twitter_icon{
+                  font-size: 1.9vmax;
+              }
+              
+              #add{
+                  font-size: 1.5vmax;
+                  margin-top: 1vmax;
+                  margin-bottom: 0.8vmax;
+              }
+              
+              #mobile_text{
+                  font-size: 1.6vmax;
+                  margin-bottom: 0.8vmax;
+              }
+              
+              #email_text{
+                  font-size: 1.7vmax;
+                  margin-bottom: 0.8vmax;
+              }
+              
+              #child_footer{
+              padding: 3vh 0;
+              }
+              
+              #child_footer section h3{
+              font-size: 2vmax;
+              }
+              
+              #add_ress{
+                  font-size: 1.3vmax;
+                  margin-bottom: 0.8vmax;
+              }
+              
+              #mo_num{
+                  font-size: 1.9vmax;
+              }
+              
+              #e_id{
+              font-size: 1.9vmax;
+              }
+              
+               #foot_des p{
+                 font-size: 1.3vmax;
+               }
+              
+               #foot_end{
+                 height: 10vh;
+                 display: block;
+               }
+              
+               #c_right{
+                 margin-top: 5.5vh;
+                 margin-bottom: 3vh;
+               }
+              
+               #c_right p{
+              
+                 text-align: center;
+                 font-size: 1.3vmax;
+               }
+              
+               #add_links{
+                 text-align: center;
+               }
+              
+               #address_icon{
+                  font-size: 1.9vmax;
+               }
+              }
+              
+              /* footer ended here */

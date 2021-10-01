@@ -1,0 +1,45 @@
+.meme_area_main{
+    width: 100%;
+    min-height: 50vh;
+    padding:0 0 70px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.meme_selection_area{
+    width: 60%;
+    min-height:50vh;
+    padding:0 0 30px 0;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result_meme{
+    max-height: 80vh;
+    padding:30px 0 30px 0;
+}
+
+.result_meme img{
+    max-height:500px;
+}
+
+.top_bottom_text{
+    width: 90%;
+    margin-bottom: 32px;
+}
+
+.create_meme_text{
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category_of_meme{
+    padding-left: 2vw;
+}
